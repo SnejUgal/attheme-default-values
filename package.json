@@ -1,0 +1,29 @@
+{
+  "name": "attheme-default-values",
+  "version": "5.0.0",
+  "description": "A list of the default values of .attheme variables",
+  "author": "SnejUgal <contact@snejugal.ru> (snejugal.ru)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnejUgal/attheme-default-values.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SnejUgal/attheme-default-values/issues"
+  },
+  "homepage": "https://github.com/SnejUgal/attheme-default-values#readme",
+  "keywords": [
+    "attheme",
+    "telegram"
+  ],
+  "scripts": {
+    "compile": "npx tsc -p .",
+    "minify": "npx uglify-es dist/index.js -o dist/index.js --source-map content=dist/index.js.map",
+    "build": "npm run compile && npm run minify"
+  },
+  "devDependencies": {
+    "typescript": "^2.9.2",
+    "uglify-es": "^3.3.9"
+  }
+}
