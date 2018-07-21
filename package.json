@@ -20,7 +20,8 @@
   "scripts": {
     "compile": "npx tsc -p .",
     "minify": "npx uglify-es dist/index.js -o dist/index.js --source-map content=dist/index.js.map",
-    "build": "npm run compile && npm run minify"
+    "build": "npm run compile && npm run minify",
+    "prepublish": "npm run build && git push"
   },
   "devDependencies": {
     "typescript": "^2.9.2",
