@@ -1,12 +1,12 @@
 interface Color {
-  red: number;
-  green: number;
-  blue: number;
-  alpha: number;
+  readonly red: number;
+  readonly green: number;
+  readonly blue: number;
+  readonly alpha: number;
 }
 
 interface DefaultValues {
-  [variable: string]: Color;
+  readonly [variable: string]: Color;
 }
 
 const defaultValues: DefaultValues = {
