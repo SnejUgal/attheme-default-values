@@ -3364,7 +3364,7 @@ const defaultValues: DefaultValues = {
     blue: 217,
     alpha: 255,
   },
-  switch2Trach: {
+  switch2Track: {
     red: 255,
     green: 176,
     blue: 173,
