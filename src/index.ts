@@ -3208,7 +3208,7 @@ const defaultValues: DefaultValues = {
     blue: 234,
     alpha: 255,
   },
-  chat_attackCameraIcon1: {
+  chat_attachCameraIcon1: {
     red: 255,
     green: 125,
     blue: 48,
@@ -3346,7 +3346,7 @@ const defaultValues: DefaultValues = {
     blue: 250,
     alpha: 255,
   },
-  chats_attachCameraIcon2: {
+  chat_attachCameraIcon2: {
     red: 235,
     green: 88,
     blue: 80,
