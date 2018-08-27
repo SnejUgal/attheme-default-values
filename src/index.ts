@@ -3382,6 +3382,48 @@ const defaultValues: DefaultValues = {
     blue: 188,
     alpha: 255,
   },
+  chat_inContactPhoneSelectedText: {
+    red: 47,
+    green: 52,
+    blue: 56,
+    alpha: 255,
+  },
+  dialogCameraIcon: {
+    red: 255,
+    green: 255,
+    blue: 255,
+    alpha: 255,
+  },
+  chats_actionUnreadPressedBackground: {
+    red: 242,
+    green: 242,
+    blue: 242,
+    alpha: 255,
+  },
+  chats_actionUnreadBackground: {
+    red: 255,
+    green: 255,
+    blue: 255,
+    alpha: 255,
+  },
+  chat_inAudioPerfomerSelectedText: {
+    red: 47,
+    green: 52,
+    blue: 56,
+    alpha: 255,
+  },
+  chats_actionUnreadIcon: {
+    red: 115,
+    green: 115,
+    blue: 115,
+    alpha: 255,
+  },
+  chat_outAudioPerfomerSelectedText: {
+    red: 53,
+    green: 66,
+    blue: 52,
+    alpha: 255,
+  },
 };
 
 export default defaultValues;
