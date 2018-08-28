@@ -1384,12 +1384,6 @@ const defaultValues: DefaultValues = {
     blue: 41,
     alpha: 255,
   },
-  chat_outVenueNameText: {
-    red: 85,
-    green: 171,
-    blue: 79,
-    alpha: 255,
-  },
   actionBarActionModeDefaultIcon: {
     red: 115,
     green: 115,
@@ -1838,12 +1832,6 @@ const defaultValues: DefaultValues = {
     red: 242,
     green: 242,
     blue: 242,
-    alpha: 255,
-  },
-  chat_inVenueNameText: {
-    red: 78,
-    green: 154,
-    blue: 212,
     alpha: 255,
   },
   chat_outLoaderPhoto: {
