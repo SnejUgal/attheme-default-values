@@ -1,9 +1,13 @@
 # `attheme-default-values`
+
 A JavaScript package with values of Telegram for Android's default theme.
+
 ```bash
-$ npm i attheme-default-values
+npm i attheme-default-values
 ```
+
 ## Example
+
 ```ts
 import defaultValues from "attheme-default-values";
 
