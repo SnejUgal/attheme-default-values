@@ -1,16 +1,13 @@
-# `attheme-default-values`
+# `attheme-default-values` is deprecated
 
-A JavaScript package with values of Telegram for Android's default theme.
-
-```bash
-npm i attheme-default-values
-```
-
-## Example
+Now the default themes are available under `attheme-js`:
 
 ```ts
-import defaultValues from "attheme-default-values";
+import defaultValues from "attheme-js/defaultThemes/default";
 
-console.log(defaultValues.chat_messagePanelIcons);
-// { red: 168, green: 168, blue: 168, alpha: 255 }
+const theme = new Attheme(null, {
+  defaultValues,
+});
+
+// ...
 ```
